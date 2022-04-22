@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[http://www.fb.com]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[A1]]>
+    </line>
+    <line>
+      <![CDATA[manager]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-22T13:37:31 IST" name="Suite" finished-at="2022-04-22T13:38:54 IST" duration-ms="83343">
+    <groups>
+    </groups>
+    <test started-at="2022-04-22T13:37:31 IST" name="Regrassion" finished-at="2022-04-22T13:38:54 IST" duration-ms="83343">
+      <class name="Script.Test1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Script.Test1@5b1f29fa]" started-at="2022-04-22T13:37:31 IST" name="openApp" finished-at="2022-04-22T13:38:42 IST" duration-ms="71344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestA()[pri:0, instance:Script.Test1@5b1f29fa]" started-at="2022-04-22T13:38:42 IST" name="TestA" finished-at="2022-04-22T13:38:53 IST" duration-ms="10759" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[http://www.fb.com]]>
+            </line>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[A1]]>
+            </line>
+            <line>
+              <![CDATA[manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:Script.Test1@5b1f29fa]" started-at="2022-04-22T13:38:53 IST" name="closeApp" finished-at="2022-04-22T13:38:54 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Script.Test1 -->
+    </test> <!-- Regrassion -->
+  </suite> <!-- Suite -->
+</testng-results>
